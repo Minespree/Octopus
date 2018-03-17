@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/github/license/Minespree/Octopus.svg)](LICENSE)
 ![Documentation](https://img.shields.io/badge/docs-missing-red.svg)
 
-This is the code that powered the unfinished private and public web APIs of the former Minespree Network. Please note that this project was never tested and was in heavy development when the server closed and work on it ceased. As so, this project isn't ready for production as there are some key features missing and there is a lack of some really important security additions such as [CSRF](<https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)>) protection.
+This is the code that powered the unfinished private and public REST APIs of the former Minespree Network. Please note that this project was never tested and was in heavy development when the server closed and work on it ceased. As so, this project isn't ready for production as there are some key features missing and there is a lack of some really important security additions such as [CSRF](<https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)>) protection.
 
 Besides the removal of some branding and configuration data, it is more or less unmodified. It is probably not _directly_ useful to third parties in its current state, but it may be help in understanding how the Minespree network operated.
 
