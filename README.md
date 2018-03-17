@@ -85,7 +85,7 @@ This project was maintained by the Minespree Network team. If you have any quest
 
 ## Coding Conventions
 
-* We use the [Google JavaScript](https://google.github.io/styleguide/jsguide.html) coding standard and enforce it by using [ESLint](https://eslint.org/)
+* We use the [Google JavaScript](https://google.github.io/styleguide/jsguide.html) coding standard and enforce its usage with [ESLint](https://eslint.org/)
 * Formatting issues will get taken care of by [Prettier](https://github.com/prettier/prettier)
 
 ## License
