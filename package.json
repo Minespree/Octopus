@@ -1,0 +1,35 @@
+{
+  "name": "@minespree/api",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Main Minespree server public (and private) API",
+  "main": "dist",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon -w src --exec \"babel-node src\"",
+    "build": "babel src -s -D -d dist",
+    "start": "node dist",
+    "prestart": "npm run -s build",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "engines": {
+    "node": ">=8.9.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.38",
+    "@babel/core": "^7.0.0-beta.38",
+    "@babel/preset-env": "^7.0.0-beta.38",
+    "eslint-config-google": "^0.9.1",
+    "jest": "^22.1.4",
+    "nodemon": "^1.14.11"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "celebrate": "^7.0.4",
+    "express": "^4.16.2",
+    "http-status": "^1.0.1",
+    "mongoose": "^5.0.1",
+    "morgan": "^1.9.0",
+    "winston": "^2.4.0"
+  }
+}
